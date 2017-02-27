@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132D653E1E63F2B8002E9FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D653D1E63F2B8002E9FA7 /* main.m */; };
+		132D65411E63F2B8002E9FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D65401E63F2B8002E9FA7 /* AppDelegate.m */; };
+		132D65441E63F2B8002E9FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D65431E63F2B8002E9FA7 /* ViewController.m */; };
+		132D65471E63F2B8002E9FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132D65451E63F2B8002E9FA7 /* Main.storyboard */; };
+		132D65491E63F2B8002E9FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132D65481E63F2B8002E9FA7 /* Assets.xcassets */; };
+		132D654C1E63F2B8002E9FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132D654A1E63F2B8002E9FA7 /* LaunchScreen.storyboard */; };
+		132D65571E63F2B8002E9FA7 /* RAC_MVVM__tableView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D65561E63F2B8002E9FA7 /* RAC_MVVM__tableView__Tests.m */; };
+		132D65621E63F2B8002E9FA7 /* RAC_MVVM__tableView__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132D65611E63F2B8002E9FA7 /* RAC_MVVM__tableView__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132D65531E63F2B8002E9FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132D65311E63F2B8002E9FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132D65381E63F2B8002E9FA7;
+			remoteInfo = "RAC+MVVM实现tableView列表";
+		};
+		132D655E1E63F2B8002E9FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132D65311E63F2B8002E9FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132D65381E63F2B8002E9FA7;
+			remoteInfo = "RAC+MVVM实现tableView列表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132D65391E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC+MVVM实现tableView列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D653D1E63F2B8002E9FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132D653F1E63F2B8002E9FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		132D65401E63F2B8002E9FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132D65421E63F2B8002E9FA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		132D65431E63F2B8002E9FA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		132D65461E63F2B8002E9FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132D65481E63F2B8002E9FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		132D654B1E63F2B8002E9FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		132D654D1E63F2B8002E9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132D65521E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC+MVVM实现tableView列表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D65561E63F2B8002E9FA7 /* RAC_MVVM__tableView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_MVVM__tableView__Tests.m; sourceTree = "<group>"; };
+		132D65581E63F2B8002E9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132D655D1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC+MVVM实现tableView列表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D65611E63F2B8002E9FA7 /* RAC_MVVM__tableView__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_MVVM__tableView__UITests.m; sourceTree = "<group>"; };
+		132D65631E63F2B8002E9FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132D65361E63F2B8002E9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D654F1E63F2B8002E9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D655A1E63F2B8002E9FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132D65301E63F2B8002E9FA7 = {
+			isa = PBXGroup;
+			children = (
+				132D653B1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */,
+				132D65551E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests */,
+				132D65601E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests */,
+				132D653A1E63F2B8002E9FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132D653A1E63F2B8002E9FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132D65391E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表.app */,
+				132D65521E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests.xctest */,
+				132D655D1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132D653B1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */ = {
+			isa = PBXGroup;
+			children = (
+				132D653F1E63F2B8002E9FA7 /* AppDelegate.h */,
+				132D65401E63F2B8002E9FA7 /* AppDelegate.m */,
+				132D65421E63F2B8002E9FA7 /* ViewController.h */,
+				132D65431E63F2B8002E9FA7 /* ViewController.m */,
+				132D65451E63F2B8002E9FA7 /* Main.storyboard */,
+				132D65481E63F2B8002E9FA7 /* Assets.xcassets */,
+				132D654A1E63F2B8002E9FA7 /* LaunchScreen.storyboard */,
+				132D654D1E63F2B8002E9FA7 /* Info.plist */,
+				132D653C1E63F2B8002E9FA7 /* Supporting Files */,
+			);
+			path = "RAC+MVVM实现tableView列表";
+			sourceTree = "<group>";
+		};
+		132D653C1E63F2B8002E9FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				132D653D1E63F2B8002E9FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		132D65551E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				132D65561E63F2B8002E9FA7 /* RAC_MVVM__tableView__Tests.m */,
+				132D65581E63F2B8002E9FA7 /* Info.plist */,
+			);
+			path = "RAC+MVVM实现tableView列表Tests";
+			sourceTree = "<group>";
+		};
+		132D65601E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				132D65611E63F2B8002E9FA7 /* RAC_MVVM__tableView__UITests.m */,
+				132D65631E63F2B8002E9FA7 /* Info.plist */,
+			);
+			path = "RAC+MVVM实现tableView列表UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132D65381E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132D65661E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表" */;
+			buildPhases = (
+				132D65351E63F2B8002E9FA7 /* Sources */,
+				132D65361E63F2B8002E9FA7 /* Frameworks */,
+				132D65371E63F2B8002E9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC+MVVM实现tableView列表";
+			productName = "RAC+MVVM实现tableView列表";
+			productReference = 132D65391E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		132D65511E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132D65691E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表Tests" */;
+			buildPhases = (
+				132D654E1E63F2B8002E9FA7 /* Sources */,
+				132D654F1E63F2B8002E9FA7 /* Frameworks */,
+				132D65501E63F2B8002E9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132D65541E63F2B8002E9FA7 /* PBXTargetDependency */,
+			);
+			name = "RAC+MVVM实现tableView列表Tests";
+			productName = "RAC+MVVM实现tableView列表Tests";
+			productReference = 132D65521E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		132D655C1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132D656C1E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表UITests" */;
+			buildPhases = (
+				132D65591E63F2B8002E9FA7 /* Sources */,
+				132D655A1E63F2B8002E9FA7 /* Frameworks */,
+				132D655B1E63F2B8002E9FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132D655F1E63F2B8002E9FA7 /* PBXTargetDependency */,
+			);
+			name = "RAC+MVVM实现tableView列表UITests";
+			productName = "RAC+MVVM实现tableView列表UITests";
+			productReference = 132D655D1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132D65311E63F2B8002E9FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Xuetao;
+				TargetAttributes = {
+					132D65381E63F2B8002E9FA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+					};
+					132D65511E63F2B8002E9FA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132D65381E63F2B8002E9FA7;
+					};
+					132D655C1E63F2B8002E9FA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132D65381E63F2B8002E9FA7;
+					};
+				};
+			};
+			buildConfigurationList = 132D65341E63F2B8002E9FA7 /* Build configuration list for PBXProject "RAC+MVVM实现tableView列表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 132D65301E63F2B8002E9FA7;
+			productRefGroup = 132D653A1E63F2B8002E9FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132D65381E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */,
+				132D65511E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表Tests */,
+				132D655C1E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132D65371E63F2B8002E9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D654C1E63F2B8002E9FA7 /* LaunchScreen.storyboard in Resources */,
+				132D65491E63F2B8002E9FA7 /* Assets.xcassets in Resources */,
+				132D65471E63F2B8002E9FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D65501E63F2B8002E9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D655B1E63F2B8002E9FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132D65351E63F2B8002E9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D65441E63F2B8002E9FA7 /* ViewController.m in Sources */,
+				132D65411E63F2B8002E9FA7 /* AppDelegate.m in Sources */,
+				132D653E1E63F2B8002E9FA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D654E1E63F2B8002E9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D65571E63F2B8002E9FA7 /* RAC_MVVM__tableView__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D65591E63F2B8002E9FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D65621E63F2B8002E9FA7 /* RAC_MVVM__tableView__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132D65541E63F2B8002E9FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132D65381E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */;
+			targetProxy = 132D65531E63F2B8002E9FA7 /* PBXContainerItemProxy */;
+		};
+		132D655F1E63F2B8002E9FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132D65381E63F2B8002E9FA7 /* RAC+MVVM实现tableView列表 */;
+			targetProxy = 132D655E1E63F2B8002E9FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		132D65451E63F2B8002E9FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132D65461E63F2B8002E9FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132D654A1E63F2B8002E9FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132D654B1E63F2B8002E9FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132D65641E63F2B8002E9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		132D65651E63F2B8002E9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132D65671E63F2B8002E9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132D65681E63F2B8002E9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		132D656A1E63F2B8002E9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC+MVVM实现tableView列表.app/RAC+MVVM实现tableView列表";
+			};
+			name = Debug;
+		};
+		132D656B1E63F2B8002E9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC+MVVM实现tableView列表.app/RAC+MVVM实现tableView列表";
+			};
+			name = Release;
+		};
+		132D656D1E63F2B8002E9FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC+MVVM实现tableView列表";
+			};
+			name = Debug;
+		};
+		132D656E1E63F2B8002E9FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "RAC+MVVM实现tableView列表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RACMVVM.xt.RAC-MVVM--tableView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC+MVVM实现tableView列表";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132D65341E63F2B8002E9FA7 /* Build configuration list for PBXProject "RAC+MVVM实现tableView列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D65641E63F2B8002E9FA7 /* Debug */,
+				132D65651E63F2B8002E9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132D65661E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D65671E63F2B8002E9FA7 /* Debug */,
+				132D65681E63F2B8002E9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		132D65691E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D656A1E63F2B8002E9FA7 /* Debug */,
+				132D656B1E63F2B8002E9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		132D656C1E63F2B8002E9FA7 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现tableView列表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D656D1E63F2B8002E9FA7 /* Debug */,
+				132D656E1E63F2B8002E9FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132D65311E63F2B8002E9FA7 /* Project object */;
+}
